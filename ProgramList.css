@@ -1,0 +1,35 @@
+.programs-title {
+  text-align: center;
+  font-size: 2rem;
+  color: #FFD700;
+  margin-bottom: 1.7rem;
+  letter-spacing: 1px;
+}
+
+.program-tabs {
+  display: flex;
+  justify-content: center;
+  gap: 1.3rem;
+  margin-bottom: 2.5rem;
+  flex-wrap: wrap;
+}
+
+.program-tab {
+  background: #232323;
+  color: #FFD700;
+  border: 2px solid #FFD700;
+  border-radius: 22px;
+  padding: 0.6rem 1.8rem;
+  font-size: 1.08rem;
+  font-weight: bold;
+  margin: 0.2rem 0;
+  transition: background 0.15s, color 0.15s, border 0.15s;
+  cursor: pointer;
+}
+
+.program-tab.active,
+.program-tab:hover {
+  background: #FFD700;
+  color: #232323;
+  border-color: #FFD700;
+}

@@ -1,0 +1,101 @@
+.medical-module {
+  background: #23262e;
+  color: #fafaff;
+  margin: 1.5rem 0;
+  padding: 2.5rem 2rem;
+  border-radius: 18px;
+  box-shadow: 0 6px 36px rgba(0,0,0,0.25);
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 1.08rem;
+}
+
+.medical-module h2 {
+  color: #FFD700;
+  font-size: 2.1rem;
+  letter-spacing: 1px;
+  margin-bottom: 0.2em;
+}
+
+.medical-module section {
+  margin-bottom: 1.2rem;
+}
+
+.medical-module ul,
+.medical-module li {
+  margin-bottom: 0.15rem;
+}
+
+.toggle {
+  background: linear-gradient(90deg, #FFD700 0%, #ffae00 100%);
+  border: none;
+  color: #181818;
+  padding: 0.5rem 1.3rem;
+  border-radius: 6px;
+  font-weight: bold;
+  margin: 0.3rem 0 0.5rem 0;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background 0.2s;
+}
+.toggle:hover {
+  background: linear-gradient(90deg, #ffae00 0%, #FFD700 100%);
+  color: #000;
+}
+
+.section-content {
+  background: #18191f;
+  padding: 1rem 1.1rem;
+  margin-top: 0.4rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.14);
+  animation: fadeIn 0.5s;
+}
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(10px);}
+  to   { opacity: 1; transform: translateY(0);}
+}
+
+.code-block {
+  background: #16191f;
+  color: #FFD700;
+  font-family: "Fira Mono", "Consolas", monospace;
+  font-size: 0.97em;
+  border-radius: 6px;
+  padding: 0.7em 1em;
+  margin: 0.5em 0 0.7em 0;
+  overflow-x: auto;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.11);
+}
+
+.kpi-table {
+  width: 100%;
+  margin: 1em 0;
+  border-collapse: collapse;
+  font-size: 1em;
+}
+.kpi-table th, .kpi-table td {
+  border: 1px solid #333;
+  padding: 0.5em;
+  text-align: left;
+  background: #21232b;
+}
+.kpi-table th {
+  background: #FFD700;
+  color: #222;
+}
+.kpi-table tr:nth-child(even) td {
+  background: #23262e;
+}
+.boom-formula {
+  margin: 1.2em 0 0.5em 0;
+  font-size: 1.18em;
+  background: #252831;
+  color: #fffbe7;
+  padding: 0.9em 1em;
+  border-radius: 9px;
+  box-shadow: 0 1px 7px rgba(255,215,0,0.07);
+  text-align: center;
+  line-height: 1.7;
+}
